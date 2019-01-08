@@ -1,6 +1,6 @@
 FROM buildpack-deps:jessie
 
-ENV DOCKERIZE_VERSION v0.2.0
+ENV DOCKERIZE_VERSION v0.6.1
 
 RUN apt-get update && apt-get install -y wget && \
     apt-get clean && \
